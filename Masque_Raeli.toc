@@ -1,0 +1,12 @@
+## Interface: 80200
+## Title: Masque: |cffffffffRaeli|r
+## Notes: Raeli's skin for Masque.
+## Version: @project-revision@
+## Author: Raeli
+## Dependencies: Masque
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Masque_Raeli.lua
