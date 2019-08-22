@@ -1,3 +1,3 @@
-# Masque: Raeli r12-Release
+# Masque: Raeli r13-Release
 ### Changed
-* Updated interface version for 8.2
+* Cleaned up some textures a bit.

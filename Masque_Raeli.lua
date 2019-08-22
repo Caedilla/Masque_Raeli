@@ -3,10 +3,10 @@ if not MSQ then return end
 
 MSQ:AddSkin("Raeli", {
 	Author = "Raeli",
-	Version = "1",
+	Version = "13",
 	Masque_Version = 80100,
 	Shape = "Square",
-	
+
 	Backdrop = {
 		Width = 36,
 		Height = 36,
@@ -98,5 +98,5 @@ MSQ:AddSkin("Raeli", {
 		OffsetX = 1,
 		OffsetY = -1,
 	},
-	
+
 }, true)
