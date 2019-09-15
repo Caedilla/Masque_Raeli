@@ -6,7 +6,10 @@ MSQ:AddSkin("Raeli", {
 	Version = string.match(GetAddOnMetadata("Masque_Raeli","Version"),"%d+"),
 	Masque_Version = 80200,
 	Shape = "Square",
-	Websites = {"https://www.curseforge.com/wow/addons/masque_raeli"},
+	Websites = {
+		"https://www.curseforge.com/wow/addons/masque_raeli",
+		"https://discord.gg/99QZ6sd",
+	},
 
 	Backdrop = {
 		Width = 36,
