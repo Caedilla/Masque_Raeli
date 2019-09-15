@@ -3,9 +3,10 @@ if not MSQ then return end
 
 MSQ:AddSkin("Raeli", {
 	Author = "Raeli",
-	Version = "13",
-	Masque_Version = 80100,
+	Version = string.match(GetAddOnMetadata("Masque_Raeli","Version"),"%d+"),
+	Masque_Version = 80200,
 	Shape = "Square",
+	Websites = {"https://www.curseforge.com/wow/addons/masque_raeli"},
 
 	Backdrop = {
 		Width = 36,
@@ -31,8 +32,9 @@ MSQ:AddSkin("Raeli", {
 	Pushed = {
 		Width = 34,
 		Height = 34,
-		Color = {0, 0.75, 1, 0.5},
-		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Highlight]],
+		Color = {0, 204/255, 1, 0.4},
+		BlendMode = "BLEND",
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Pushed]],
 	},
 	Normal = {
 		Width = 36,
@@ -69,10 +71,10 @@ MSQ:AddSkin("Raeli", {
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Highlight = {
-		Width = 34,
-		Height = 34,
+		Width = 36,
+		Height = 36,
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 0.5},
+		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Highlight]],
 	},
 	Name = {

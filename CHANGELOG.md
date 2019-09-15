@@ -1,3 +1,4 @@
-# Masque: Raeli r13-Release
-### Changed
-* Cleaned up some textures a bit.
+# Masque: Raeli r14-Release
+### New
+* Highlight has a new texture now that also highlights the border slightly.
+* Support both Retail & Classic interface versions.
