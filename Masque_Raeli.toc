@@ -6,7 +6,7 @@
 #@end-non-retail@
 ## Title: Masque: |cffffffffRaeli|r
 ## Notes: Raeli's skin for Masque.
-## Version: @project-revision@
+## Version: @project-version@
 ## Author: Raeli
 ## Dependencies: Masque
 
