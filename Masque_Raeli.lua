@@ -1,14 +1,15 @@
-local MSQ = LibStub("Masque", true)
+local MSQ = LibStub('Masque', true)
 if not MSQ then return end
 
-MSQ:AddSkin("Raeli", {
-	Author = "Raeli",
-	Version = string.match(GetAddOnMetadata("Masque_Raeli","Version"),"%d+"),
+MSQ:AddSkin('Raeli', {
+	Author = 'Raeli',
+	Version = string.match(GetAddOnMetadata('Masque_Raeli','Version'),'%d+'),
 	Masque_Version = 80200,
-	Shape = "Square",
+	Shape = 'Square',
 	Websites = {
-		"https://www.curseforge.com/wow/addons/masque_raeli",
-		"https://discord.gg/99QZ6sd",
+		'https://github.com/Caedilla/Masque_Raeli',
+		'https://www.curseforge.com/wow/addons/masque_raeli',
+		'https://discord.gg/99QZ6sd',
 	},
 
 	Backdrop = {
@@ -36,7 +37,7 @@ MSQ:AddSkin("Raeli", {
 		Width = 34,
 		Height = 34,
 		Color = {0, 204/255, 1, 0.4},
-		BlendMode = "BLEND",
+		BlendMode = 'BLEND',
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Pushed]],
 	},
 	Normal = {
@@ -52,14 +53,14 @@ MSQ:AddSkin("Raeli", {
 	Checked = {
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
+		BlendMode = 'ADD',
 		Color = {1, 1, 1, 0.5},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Checked]],
 	},
 	Border = { -- Highlight for Item quality
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
+		BlendMode = 'ADD',
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Border]],
 	},
@@ -76,7 +77,7 @@ MSQ:AddSkin("Raeli", {
 	Highlight = {
 		Width = 36,
 		Height = 36,
-		BlendMode = "ADD",
+		BlendMode = 'ADD',
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Highlight]],
 	},

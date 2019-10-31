@@ -1,3 +1,3 @@
-# Masque: Raeli r16-Release
+# Masque: Raeli r17-Release
 ### Updates
-* Updated interface version for 8.2.5
+* Minor tweaks, added github page to website list.
