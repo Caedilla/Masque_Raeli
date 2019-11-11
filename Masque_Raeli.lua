@@ -3,7 +3,7 @@ if not MSQ then return end
 
 MSQ:AddSkin('Raeli - Square', {
 	Author = 'Raeli',
-	Version = string.match(GetAddOnMetadata('Masque_Raeli','Version'),'%d+'),
+	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
 	Shape = 'Square',
 	Websites = {
@@ -14,13 +14,13 @@ MSQ:AddSkin('Raeli - Square', {
 	Backdrop = {
 		Width = 36,
 		Height = 36,
-		Color = {1,1,1,0.75},
+		Color = {0, 0, 0, 0.75},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\No_Backdrop]],
 	},
 	Icon = {
 		Width = 36,
 		Height = 36,
-		TexCoords = {0.07,0.93,0.07,0.93},
+		TexCoords = {0.07, 0.93, 0.07, 0.93},
 	},
 	Flash = {
 		Width = 36,
@@ -31,6 +31,7 @@ MSQ:AddSkin('Raeli - Square', {
 	Cooldown = {
 		Width = 34,
 		Height = 34,
+		Color = {0, 0, 0, 0.75},
 	},
 	Pushed = {
 		Width = 34,
@@ -64,7 +65,11 @@ MSQ:AddSkin('Raeli - Square', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Border]],
 	},
 	Gloss = {
-		Hide = true,
+		Width = 36,
+		Height = 36,
+		BlendMode = 'ADD',
+		Color = {1, 1, 1, 0.6},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Gloss]],
 	},
 	AutoCastable = {
 		Width = 65,
@@ -81,21 +86,34 @@ MSQ:AddSkin('Raeli - Square', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Highlight]],
 	},
 	Name = {
-		Width = 36,
-		Height = 36,
-		OffsetY = 2,
+		JustifyH = "LEFT",
+		JustifyV = "TOP",
+		Width = 28,
+		Height = 10,
+		Point = "TOPLEFT",
+		RelPoint = "TOPLEFT",
+		OffsetX = 0.5,
+		OffsetY = -1,
 	},
 	Count = {
-		Width = 36,
-		Height = 36,
+		JustifyH = "RIGHT",
+		JustifyV = "BOTTOM",
+		Width = 30,
+		Height = 10,
+		Point = "BOTTOMRIGHT",
+		RelPoint = "BOTTOMRIGHT",
 		OffsetX = 1,
-		OffsetY = -11,
+		OffsetY = 1,
 	},
 	HotKey = {
-		Width = 36,
-		Height = 36,
-		OffsetX = 1,
-		OffsetY = 10,
+		JustifyH = "RIGHT",
+		JustifyV = "TOP",
+		Width = 30,
+		Height = 10,
+		Point = "TOPRIGHT",
+		RelPoint = "TOPRIGHT",
+		OffsetX = 0.5,
+		OffsetY = -1,
 	},
 	Shine = {
 		Width = 34,
@@ -108,7 +126,7 @@ MSQ:AddSkin('Raeli - Square', {
 
 MSQ:AddSkin('Raeli - Ring', {
 	Author = 'Raeli',
-	Version = string.match(GetAddOnMetadata('Masque_Raeli','Version'),'%d+'),
+	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
 	Shape = 'Circle',
 	Websites = {
@@ -119,13 +137,13 @@ MSQ:AddSkin('Raeli - Ring', {
 	Backdrop = {
 		Width = 36,
 		Height = 36,
-		Color = {0,0,0,1},
+		Color = {0, 0, 0, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\No_Backdrop]],
 	},
 	Icon = {
 		Width = 25,
 		Height = 25,
-		TexCoords = {0.03,0.97,0.03,0.97},
+		TexCoords = {0.03, 0.97, 0.03, 0.97},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Pushed]],
 	},
 	Flash = {
@@ -135,12 +153,13 @@ MSQ:AddSkin('Raeli - Ring', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Flash]],
 	},
 	Cooldown = {
-		Width = 34,
-		Height = 34,
+		Width = 30,
+		Height = 30,
+		Color = {0, 0, 0, 0.75},
 	},
 	Pushed = {
-		Width = 34,
-		Height = 34,
+		Width = 33,
+		Height = 33,
 		Color = {0, 204/255, 1, 0.4},
 		BlendMode = 'ADD',
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Pushed]],
@@ -169,7 +188,11 @@ MSQ:AddSkin('Raeli - Ring', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Border]],
 	},
 	Gloss = {
-		Hide = true,
+		Width = 36,
+		Height = 36,
+		BlendMode = 'ADD',
+		Color = {1, 1, 1, 0.6},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Gloss]],
 	},
 	AutoCastable = {
 		Width = 54,
@@ -185,15 +208,24 @@ MSQ:AddSkin('Raeli - Ring', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Highlight]],
 	},
 	Name = {
-		Width = 36,
-		Height = 36,
+		JustifyH = "CENTER",
+		JustifyV = "MIDDLE",
+		Width = 1, -- Effectively force hiding Macro Text
+		Height = 1,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
 		OffsetY = 2,
 	},
 	Count = {
+		JustifyH = "CENTER",
+		JustifyV = "MIDDLE",
 		Width = 36,
-		Height = 36,
-		OffsetX = 1,
-		OffsetY = -11,
+		Height = 10,
+		Point = "BOTTOM",
+		RelPoint = "BOTTOM",
+		OffsetX = 2,
+		OffsetY = 2.5,
 	},
 	HotKey = {
 		JustifyH = "CENTER",
@@ -205,7 +237,6 @@ MSQ:AddSkin('Raeli - Ring', {
 		OffsetX = 2,
 		OffsetY = -3,
 	},
-
 	Shine = {
 		Width = 30,
 		Height = 30,
