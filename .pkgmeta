@@ -4,11 +4,8 @@ manual-changelog:
     filename: CHANGELOG.md
     markup-type: markdown
 
-externals:
- Libs/LibStub-1.0:
-  url: svn://svn.wowace.com/wow/libstub/mainline/trunk
-
 ignore:
  - Release
+ - Textures\PSD
  - .pkgmeta
  - README.md

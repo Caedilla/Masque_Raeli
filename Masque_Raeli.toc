@@ -10,8 +10,4 @@
 ## Author: Raeli
 ## Dependencies: Masque
 
-#@no-lib-strip@
-embeds.xml
-#@end-no-lib-strip@
-
 Masque_Raeli.lua
