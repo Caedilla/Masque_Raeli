@@ -7,5 +7,6 @@ manual-changelog:
 ignore:
  - Release
  - Textures/RaeliRing/PSD
+ - Textures/Raeli/PSD
  - .pkgmeta
  - README.md
