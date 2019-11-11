@@ -6,6 +6,7 @@ MSQ:AddSkin('Raeli - Square', {
 	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
 	Shape = 'Square',
+	Description = "A simple sqaure pixel border skin.",
 	Websites = {
 		'https://github.com/Caedilla/Masque_Raeli',
 		'https://www.curseforge.com/wow/addons/masque_raeli',
@@ -129,6 +130,7 @@ MSQ:AddSkin('Raeli - Ring', {
 	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
 	Shape = 'Circle',
+	Description = "A simple circular pixel border skin.",
 	Websites = {
 		'https://github.com/Caedilla/Masque_Raeli',
 		'https://www.curseforge.com/wow/addons/masque_raeli',
