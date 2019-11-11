@@ -6,12 +6,22 @@
 
 
 ## About
-**Masque: Raeli** is a Masque skin. It does nothing by itself and requires [Masque](https://mods.curse.com/addons/wow/masque).
+**Masque: Raeli** is a pair Masque of skins. It does nothing by itself and requires [Masque](https://mods.curse.com/addons/wow/masque).
 
 Masque allows button skinning to addons that support it. A preview of this skin is shown below.
 
 ## Preview
-![Preview](https://i.imgur.com/vyis3Uv.png)
+### Square
+High resolution pixel border skin with an inner glow and border glow for item quality.
+Item count displayed in the bottom right, Keybinds in the top right, and Macro Text in the top left.
+
+![Square Style](https://i.imgur.com/vyis3Uv.png)
+### Circle
+Designed for use with [OPie](https://www.curseforge.com/wow/addons/opie) or other similar addons.
+
+![Circle Opie](https://i.imgur.com/mnIEVCI.png)
+
+![Circle Dominos](https://i.imgur.com/sX96hgd.png)
 
 
 ## Feedback & Support

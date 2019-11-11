@@ -8,5 +8,6 @@ ignore:
  - Release
  - Textures/RaeliRing/PSD
  - Textures/Raeli/PSD
+ - Examples
  - .pkgmeta
  - README.md
