@@ -6,6 +6,6 @@ manual-changelog:
 
 ignore:
  - Release
- - Textures\PSD
+ - Textures/PSD
  - .pkgmeta
  - README.md
