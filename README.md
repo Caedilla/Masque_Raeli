@@ -32,7 +32,7 @@ Square Edge on the left, Square Inset on the right.
 ### Ring Edge / Inset
 The ring skins are designed to match the square skins as closely as possible, except for being circular. Like the square skins, they come in an Edge and Inset variety, with the Edge skin being designed for use in scenarios where you will use a black border, and the inset skin for use with coloured borders.
 
-![Ring Style](https://raw.githubusercontent.com/Caedilla/Masque_Raeli/master/Examples/Square.png)
+![Ring Style](https://raw.githubusercontent.com/Caedilla/Masque_Raeli/master/Examples/Ring.png)
 
 
 ## Feedback & Support
