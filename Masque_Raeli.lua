@@ -168,7 +168,7 @@ MSQ:AddSkin('Raeli - Ring Edge', {
 	Backdrop = {
 		Width = 36,
 		Height = 36,
-		Color = {0, 0, 0, 1},
+		Color = {0, 0, 0, 0.75},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\No_Backdrop]],
 	},
 	Icon = {
