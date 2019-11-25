@@ -11,17 +11,24 @@
 Masque allows button skinning to addons that support it. A preview of this skin is shown below.
 
 ## Preview
-### Square
+### Square Edge / Inset
 High resolution pixel border skin with an inner glow and border glow for item quality.
 Item count displayed in the bottom right, Keybinds in the top right, and Macro Text in the top left.
 
-![Square Style](https://i.imgur.com/vyis3Uv.png)
-### Circle
-Designed for use with [OPie](https://www.curseforge.com/wow/addons/opie) or other similar addons.
+* Square Edge is the original Masque Raeli skin, a simple pixel border with icons stretching to the edge of the border. Best used when the icon border will normally be black, such as with action bar addons.
 
-![Circle Opie](https://i.imgur.com/mnIEVCI.png)
+* Square Inset is a version of the square skin with a slight inset on the icons to better separate and highlight the border edge. Best used when the borders will be coloured, such as with inventory addons.
 
-![Circle Dominos](https://i.imgur.com/sX96hgd.png)
+Previews:
+
+![Square Style](https://i.imgur.com/vyis3Uv.png) ![Square Inset Style](https://i.imgur.com/vyis3Uv.png)
+
+
+
+### Ring Edge / Inset
+The ring skins are designed to match the square skins as closely as possible, except for being circular. Like the square skins, they come in an Edge and Inset variety, with the Edge skin being designed for use in scenarios where you will use a black border, and the inset skin for use with coloured borders.
+
+![Square Style](https://i.imgur.com/vyis3Uv.png) ![Square Inset Style](https://i.imgur.com/vyis3Uv.png)
 
 
 ## Feedback & Support

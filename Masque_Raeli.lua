@@ -1,7 +1,7 @@
 local MSQ = LibStub('Masque', true)
 if not MSQ then return end
 
-MSQ:AddSkin('Raeli - Square', {
+MSQ:AddSkin('Raeli - Square Edge', {
 	Author = 'Raeli',
 	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
@@ -44,7 +44,6 @@ MSQ:AddSkin('Raeli - Square', {
 	Normal = {
 		Width = 36,
 		Height = 36,
-		Static = true,
 		Color = {0, 0, 0, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Normal]],
 	},
@@ -86,6 +85,20 @@ MSQ:AddSkin('Raeli - Square', {
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Highlight]],
 	},
+	SpellHighlight = {
+		Width = 36,
+		Height = 36,
+		BlendMode = 'BLEND',
+		Color = {1, 204/255, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Highlight]],
+	},
+	NewAction = {
+		Width = 36,
+		Height = 36,
+		BlendMode = 'BLEND',
+		Color = {1, 204/255, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Highlight]],
+	},
 	Name = {
 		JustifyH = "LEFT",
 		JustifyV = "TOP",
@@ -125,7 +138,23 @@ MSQ:AddSkin('Raeli - Square', {
 
 }, true)
 
-MSQ:AddSkin('Raeli - Ring', {
+MSQ:AddSkin("Raeli - Square Inset", {
+	Template = "Raeli - Square Edge",
+	Description = "A simple sqaure pixel border skin with a small inset to make coloured borders better stand out. Designed for use with colored icons.",
+	Icon = {
+		Width = 35,
+		Height = 35,
+		TexCoords = {0.07, 0.93, 0.07, 0.93},
+	},
+	Normal = {
+		Width = 36,
+		Height = 36,
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\Raeli\Normal_Inset]],
+	},
+}, true)
+
+MSQ:AddSkin('Raeli - Ring Edge', {
 	Author = 'Raeli',
 	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
 	Masque_Version = 80200,
@@ -143,10 +172,11 @@ MSQ:AddSkin('Raeli - Ring', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\No_Backdrop]],
 	},
 	Icon = {
-		Width = 25,
-		Height = 25,
+		Width = 34,
+		Height = 34,
 		TexCoords = {0.03, 0.97, 0.03, 0.97},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Pushed]],
+		Mask = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Mask]],
 	},
 	Flash = {
 		Width = 36,
@@ -209,6 +239,20 @@ MSQ:AddSkin('Raeli - Ring', {
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Highlight]],
 	},
+	SpellHighlight = {
+		Width = 36,
+		Height = 36,
+		BlendMode = 'BLEND',
+		Color = {1, 204/255, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Highlight]],
+	},
+	NewAction = {
+		Width = 36,
+		Height = 36,
+		BlendMode = 'BLEND',
+		Color = {1, 204/255, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Highlight]],
+	},
 	Name = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
@@ -246,4 +290,22 @@ MSQ:AddSkin('Raeli - Ring', {
 		OffsetY = -1,
 	},
 
+}, true)
+
+MSQ:AddSkin("Raeli - Ring Inset", {
+	Template = "Raeli - Ring Edge",
+	Description = "A simple circular pixel border skin with a small inset to make coloured borders better stand out. Designed for use with colored icons.",
+	Icon = {
+		Width = 33,
+		Height = 33,
+		TexCoords = {0.03, 0.97, 0.03, 0.97},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Pushed]],
+		Mask = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Mask]],
+	},
+	Normal = {
+		Width = 36,
+		Height = 36,
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Normal_Inset]],
+	},
 }, true)
