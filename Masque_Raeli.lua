@@ -185,8 +185,8 @@ MSQ:AddSkin('Raeli - Ring Edge', {
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Flash]],
 	},
 	Cooldown = {
-		Width = 30,
-		Height = 30,
+		Width = 35,
+		Height = 35,
 		Color = {0, 0, 0, 0.75},
 	},
 	Pushed = {

@@ -1,3 +1,3 @@
-# Masque: Raeli r20-Release
-### Changed
-* Updated interface version for 8.3
+# Masque: Raeli r21-Release
+### Fixed
+* Fixed incorrect cooldown spiral on circular skins.
