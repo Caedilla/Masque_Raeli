@@ -1,3 +1,4 @@
-# Masque: Raeli r21-Release
-### Fixed
-* Fixed incorrect cooldown spiral on circular skins.
+# Masque: Raeli r22-Release
+### Updates
+* Updated interface version for Shadowlands Pre-patch
+* Updated Masque api version to show Shadowlands compatibility

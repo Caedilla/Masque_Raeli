@@ -4,7 +4,7 @@ if not MSQ then return end
 MSQ:AddSkin('Raeli - Square Edge', {
 	Author = 'Raeli',
 	Version = string.match(GetAddOnMetadata('Masque_Raeli', 'Version'), '%d+'),
-	Masque_Version = 80200,
+	Masque_Version = 90000,
 	Shape = 'Square',
 	Description = "A simple sqaure pixel border skin.",
 	Websites = {
