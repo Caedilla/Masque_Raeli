@@ -6,7 +6,7 @@
 
 
 ## About
-**Masque: Raeli** is a pair Masque of skins. It does nothing by itself and requires [Masque](https://www.curseforge.com/wow/addons/masque_raeli).
+**Masque: Raeli** is a pair Masque of skins. It does nothing by itself and requires [Masque](https://github.com/SFX-WoW/Masque).
 
 Masque allows button skinning to addons that support it. A preview of this skin is shown below.
 
