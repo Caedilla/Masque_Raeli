@@ -1,2 +1,2 @@
-# Masque: Raeli r25-Release
-* Added support for TBCC
+# Masque: Raeli r26
+* Added support for Wrath & Dragonflight
