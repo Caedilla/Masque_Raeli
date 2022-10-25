@@ -18,11 +18,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run luacheck
-        uses: BigWigsMods/actions/luacheck@master
-        with:
-          args: -q
-
       - name: Pakcage
         uses: BigWigsMods/packager@master
         env:
