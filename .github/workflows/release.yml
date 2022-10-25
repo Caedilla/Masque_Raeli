@@ -4,7 +4,7 @@ name: Package
 on:
   push:
     tags:
-      - '*'
+      - '**'
       - '!**-classic'
     paths-ignore:
       - '.github/**'
