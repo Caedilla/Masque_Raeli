@@ -7,6 +7,7 @@
 ## Version: @project-version@
 ## Author: Raeli
 ## Dependencies: Masque
+
 ## X-Curse-project-ID: 283762
 ## X-WOWI-ID: 25719
 

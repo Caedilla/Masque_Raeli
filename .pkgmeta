@@ -1,5 +1,7 @@
 package-as: Masque_Raeli
 
+enable-toc-creation: yes
+
 manual-changelog:
     filename: CHANGELOG.md
     markup-type: markdown
