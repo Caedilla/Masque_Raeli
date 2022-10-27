@@ -9,6 +9,6 @@
 ## Dependencies: Masque
 
 ## X-Curse-Project-ID: 283762
-## X-WOWI-ID: 25719
+## X-WoWI-ID: 25719
 
 Masque_Raeli.lua
