@@ -281,8 +281,8 @@ MSQ:AddSkin('Raeli - Ring Edge', {
 		Color = {0, 0, 0, 0.75},
 	},
 	Pushed = {
-		Width = 33,
-		Height = 33,
+		Width = 35,
+		Height = 35,
 		Color = {0, 204/255, 1, 0.4},
 		BlendMode = 'ADD',
 		Texture = [[Interface\AddOns\Masque_Raeli\Textures\RaeliRing\Pushed]],
