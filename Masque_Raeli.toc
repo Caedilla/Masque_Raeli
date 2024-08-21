@@ -1,7 +1,4 @@
-## Interface: 100100
-## Interface-Wrath: 30401
-## Interface-BCC: 20504
-## Interface-Vanilla: 11403
+## Interface: 110002, 40400, 11503
 ## Title: Masque: |cffffffffRaeli|r
 ## Notes: Raeli's skins for Masque.
 ## Version: @project-version@
