@@ -1,4 +1,4 @@
-## Interface: 110002, 40400, 11503
+## Interface: 120000, 110002, 40400, 11503
 ## Title: Masque: |cffffffffRaeli|r
 ## Notes: Raeli's skins for Masque.
 ## Version: @project-version@
